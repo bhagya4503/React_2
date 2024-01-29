@@ -1,0 +1,40 @@
+
+.primary_btn{
+    padding: 9px 10px ;
+ 
+    background-color: rgb(241, 197, 197);
+    color: rgb(235, 66, 66);
+    border-radius: 5px;
+    min-width: 220px;
+    font-size: 13px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.outline_btn{
+    padding: 10px 10px ;
+    background-color: rgb(241, 197, 197);
+    color: rgb(235, 66, 66);
+    border-radius: 5px;
+    min-width: 220px;
+    font-size: 13px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+/* 
+i{
+    font-size: 13px;
+    
+} */

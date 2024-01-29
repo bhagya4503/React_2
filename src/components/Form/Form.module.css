@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 autol;
+    margin-top: 40px;
+    /* align-items: end; */
+}
+/* 
+form{
+    border: none;
+} */
+.top_btn{
+    display: flex;
+    gap: 32px;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+}
+.form_controler{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    
+}
+.form_controler input{
+    height: 30px;
+    padding: 8px 8px;
+    border: none;
+    background-color: rgb(246, 233, 235);
+}
+
+.form_controler label{
+position: absolute;
+top: -12px;
+left: 10px;
+background-color: rgb(246, 233, 235);
+padding: 0 10px;
+font-size: 14px;
+color: palevioletred;
+
+}
+
+.form_controler1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.form_controler1 input{
+    height: 30px;
+    padding: 8px 8px;
+    border: none;
+    background-color: rgb(246, 233, 235);
+}
+
+.form_controler1 label{
+    position: absolute;
+top: -12px;
+left: 10px;
+background-color: rgb(246, 233, 235);
+padding: 0 10px;
+font-size: 14px;
+color: palevioletred;
+}
+
+.form_controler2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.form_controler2 textarea{
+    height: 100%;
+    padding: 0 8px;
+    border: none;
+    background-color: rgb(246, 233, 235);
+}
+
+.form_controler2 label{
+    position: absolute;
+top: -12px;
+left: 10px;
+background-color: rgb(246, 233, 235);
+padding: 0 10px;
+font-size: 14px;
+color: palevioletred;
+}
+.btn{
+    display:flex;
+  justify-content: end;
+}
+
+.contact_img img{
+    height: 64%;
+    width: 100%;
+
+}
+
+.contact_img{
+    margin-left: 10px;
+}

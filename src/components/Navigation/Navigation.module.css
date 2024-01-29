@@ -1,0 +1,21 @@
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    padding: 0 8px;
+    align-items: center;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-weight: 500;
+    color: rgb(197, 41, 93);
+  }
+  
+  
+  img{
+    height: 50px;
+    width: 50px;
+  }
